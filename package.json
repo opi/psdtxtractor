@@ -1,0 +1,20 @@
+{
+  "name": "psdtxtractor",
+  "version": "1.0.0",
+  "description": "Extract text layer (data, font family, size and color) from a PSD file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "opi",
+  "license": "MIT",
+  "bin": {
+    "psdtxtractor": "./index.js"
+  },
+  "dependencies": {
+    "foreach": "^2.0.5",
+    "multiline": "^1.0.2",
+    "nano-color": "^1.0.9",
+    "psd": "^3.1.0"
+  }
+}
