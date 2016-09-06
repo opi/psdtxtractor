@@ -37,7 +37,7 @@ var self = module.exports = {
         // Colors
         each(font.colors, function(color, key) {
             var rgba = "rgba(" +color[0]+","+color[1]+","+color[2]+", "+color[3]+")";
-            var rgb = nanoColor.rgb2hex(color[0], color[1], color[2]).substring(1);
+            var rgb = nanoColor.rgb2hex([color[0], color[1], color[2]]).substring(1);
             console.log(indent + "\t- Color "+key+": "+rgba+" or " + rgb +", opacity = "+Math.round(color[3] / 255))
         });
 
