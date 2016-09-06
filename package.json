@@ -1,6 +1,6 @@
 {
   "name": "psdtxtractor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract text layer (data, font family, size and color) from a PSD file.",
   "author": "opi <opi@zeropi.net>",
   "license": "MIT",
