@@ -25,5 +25,5 @@
     "nano-color": "^1.0.9",
     "psd": "^3.1.0"
   },
-  "preferGlobal": true,
+  "preferGlobal": true
 }
